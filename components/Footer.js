@@ -4,10 +4,6 @@ function Footer() {
     return (
         <div className="footer">
 
-          <div>
-            <p className="credits">shoaib Ahamed Shafi @Greelab</p>
-          </div>
-
             <div className="footer-logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="300" height="20" viewBox="0 0 331.644 40.825">
                             <g transform="translate(0)">
@@ -22,7 +18,11 @@ function Footer() {
                                 <path d="M235.006,40.806H224.555l-.883-1.383C230.778,32.562,262.56,3.151,331.644,0c0,0-57.986,1.956-96.638,40.806" fill="#a7a9ac"/>
                             </g>
                         </svg>
-            </div>            
+            </div>     
+
+            <div>
+            <p className="credits">shoaib Ahamed Shafi @Greelab</p>
+          </div>       
         </div>
     )
 }

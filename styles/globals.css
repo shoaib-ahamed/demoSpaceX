@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-rows: auto auto;
   width: 100%;
-  height: 418px;
+  height: 435px;
 }
 
 .nav {
@@ -28,6 +28,14 @@ body {
   width: 100%;
   padding-top: 20px;
   position: relative;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.menu {
+  display: none;
 }
 
 .nav-content {
@@ -52,81 +60,104 @@ body {
   text-align: center;
 }
 
-.content {
-  background-color: rgba(233, 233, 233, 0.753);
-  position: relative;
-  width: 100%;
+@media (max-width: 768) {
+  .nav-content {
+    display: none;
+  }
+
+  .menu {
+    display: grid;
+    justify-content: end;
+  }
+
+  .menu a {
+    font-size: 5px;
+  }
+
+  .cover-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 432px;
+  }
+
+  .cover-slogan {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-align: center;
+  }
 }
 
-.content-text {
-  padding-top: 40px;
+@media (max-width: 415px) {
+  .nav-content {
+    display: none;
+  }
+
+  .menu {
+    display: grid;
+    justify-content: end;
+  }
+
+  .cover-wrapper {
+    height: 230px;
+  }
+
+  .cover-slogan {
+    font-size: 20px;
+  }
+
+  .logo svg {
+    height: 20px;
+    width: 200px;
+  }
 }
 
-.content-text p {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
+@media (max-width: 380px) {
+  .nav-content {
+    display: none;
+  }
 
-.content-program-name {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: center;
-  padding-top: 40px;
-}
+  .menu {
+    display: grid;
+    justify-content: end;
+  }
 
-.content-program-name h4 {
-  display: grid;
-  justify-content: center;
-}
+  .cover-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    height: 210px;
+  }
 
-.content-program-name p {
-  padding: 30px;
-}
+  .cover-slogan {
+    justify-content: center;
+    align-items: end;
+    display: grid;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-align: center;
+  }
 
-.info {
-  display: grid;
-  grid-template-columns: auto auto auto auto 500px;
-  align-items: center;
-  background-color: rgba(177, 176, 176, 0.397);
-}
-
-.item {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding: 40px;
-}
-
-.item_getupdate {
-  background-color: white;
-}
-
-ul.noedit {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color: rgba(233, 233, 233, 0.753);
-  height: 50px;
-  align-items: center;
-}
-
-p.credits {
-  color: rgba(59, 58, 58, 0.938);
-  padding-left: 50px;
-  padding-top: 10px;
-}
-
-.footer-logo {
-  display: grid;
-  justify-content: end;
+  .logo svg {
+    height: 18px;
+    width: 180px;
+  }
 }
 
 /* ----------- Products ------------- */
 @import url("./cards.css");
+/* ----------- Footer ------------- */
+@import url("./footer.css");
+/* ----------- Content ------------- */
+@import url("./content.css");
+/* ----------- Info ------------- */
+@import url("./info");

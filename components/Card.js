@@ -11,10 +11,10 @@ const Card = ({spacexdata}) => {
     //     window.location = data.wikipedia 
     // }
 
-    if(data.flight_number >6) return null; 
+    if(data.flight_number >8) return null; 
 
     return (
-            <div className="card" style={{ width: '18rem'}} areahidden={true}>
+            <div className="card" style={{ width: '18rem'}}>
                 <img className="card-img-top" src={data.links.mission_patch} alt={data.links.mission_patch} />
 
                 <div className="card-body">
