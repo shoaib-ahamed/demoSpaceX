@@ -1,2 +1,6 @@
-const withVideos = require('next-videos')
-module.exports = withVideos()
+module.exports = {
+  reactStrictMode: true,
+env: {
+    "BASE_URL" : "space-x-rho.vercel.app"
+}
+}
