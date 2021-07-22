@@ -1,0 +1,25 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: center;
+  padding: 30px 30px 30px 30px;
+  background-color: rgba(233, 233, 233, 0.753);
+}
+.cards .card {
+  margin: 10px auto;
+}
+.cards .card-img-top {
+  height: 250px;
+  width: 100%;
+}
+.cards .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cards .card-text {
+  height: 70px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
