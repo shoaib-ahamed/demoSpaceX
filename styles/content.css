@@ -30,3 +30,12 @@
 .content-program-name p {
   padding: 30px;
 }
+
+@media (max-width: 768px) {
+  .content-program-name {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}

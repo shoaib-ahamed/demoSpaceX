@@ -10,13 +10,13 @@ const Content = () => {
            <div>
               <h4> THE PROGRAM </h4>
               <p>
-                SpaceX SmallSat Rideshare Program will provide small setalites  <br/> operations with regular scheduled ,  dedicated Falcon9 Rideshare <br/> Mission SpaceX SmallSat Rideshare Program will provide small <br/> setalites operations with regular scheduled ,  dedicated  Falcon9 <br/> Rideshare Mission SpaceX SmallSat Rideshare Program will <br/> provide small  setalites operations with regular scheduled , <br/>  dedicated Falcon9 Rideshare Mission
+                SpaceX SmallSat Rideshare Program will provide small setalites   operations with regular scheduled ,  dedicated Falcon9 Rideshare Mission SpaceX SmallSat Rideshare Program will provide small setalites operations with regular scheduled ,  dedicated  Falcon9.
               </p>
            </div>
            <div>
               <h4> PAYLOADS </h4>
               <p>
-                SpaceX SmallSat Rideshare Program will provide small setalites  <br/> operations with regular scheduled ,  dedicated Falcon9 Rideshare <br/> Mission SpaceX SmallSat Rideshare Program will provide small <br/> setalites operations with regular scheduled ,  dedicated  Falcon9 <br/> Rideshare Mission SpaceX SmallSat Rideshare Program will <br/> provide small  setalites operations with regular scheduled , <br/>  dedicated Falcon9 Rideshare Mission
+                SpaceX SmallSat Rideshare Program will provide small setalites   operations with regular scheduled ,  dedicated Falcon9 Rideshare  Mission SpaceX SmallSat Rideshare Program will provide small  setalites operations with regular scheduled ,  dedicated  Falcon9.
               </p>
            </div>
         </div>
