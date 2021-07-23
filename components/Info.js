@@ -49,7 +49,7 @@ function Info() {
                     and everything about SpaceX.
                 </pre>
 
-                <label forHtml="exampleInputEmail1">Email</label>
+                <label forhtml="exampleInputEmail1">Email</label>
                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
 
             </div>
