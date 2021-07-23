@@ -9,6 +9,7 @@ function Info() {
                     <ul className='noedit'>
                         <li>+8801672019292</li>
                         <li>+8801303082197</li>
+                        <li>shoaibahamedshafi@gmail.com</li>
                     </ul>
                 </div>
 
