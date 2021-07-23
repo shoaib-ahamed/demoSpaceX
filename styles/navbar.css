@@ -7,6 +7,8 @@
 }
 
 .logo {
+  display: grid;
+  justify-content: start;
   padding-left: 50px;
 }
 
@@ -25,24 +27,13 @@
   font-weight: bold;
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
   .nav-content {
     display: none;
   }
 
-  .menu {
-    display: grid;
-    justify-content: end;
-  }
-
-  .menu a {
-    font-size: 5px;
-  }
-}
-
-@media (max-width: 415px) {
-  .nav-content {
-    display: none;
+  .logo {
+    padding-left: 0px;
   }
 
   .menu {
@@ -57,9 +48,11 @@
   .dropdown-menu a {
     color: rgba(233, 233, 233, 0.863);
     font-weight: bold;
-    font-size: 8px;
+    font-size: 15px;
   }
+}
 
+@media (max-width: 415px) {
   .logo {
     padding-left: 10px;
   }
@@ -71,15 +64,6 @@
 }
 
 @media (max-width: 380px) {
-  .menu {
-    display: grid;
-    justify-content: end;
-  }
-
-  .nav-content {
-    display: none;
-  }
-
   .logo svg {
     height: 18px;
     width: 180px;

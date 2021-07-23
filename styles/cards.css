@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: center;
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
   background-color: rgba(233, 233, 233, 0.753);
 }
 .cards .card {
