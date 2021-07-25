@@ -39,6 +39,7 @@
   .menu {
     display: grid;
     justify-content: end;
+    position: sticky;
   }
 
   .dropdown-menu {

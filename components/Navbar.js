@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
 
        <div>
-            <video autoPlay loop muted  className='vedio' src='https://res.cloudinary.com/shoaibahamed/video/upload/v1626838504/video_jatxhr.mp4'  />
+            <video autoPlay loop muted playsInLine  className='vedio' src='https://res.cloudinary.com/shoaibahamed/video/upload/v1626838504/video_jatxhr.mp4'  />
 
             <div className="cover-wrapper">
                 
