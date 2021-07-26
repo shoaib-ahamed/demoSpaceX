@@ -24,7 +24,7 @@ body {
 
 .cover-slogan {
   justify-content: center;
-  align-items: end;
+  align-items: center;
   display: grid;
   color: rgba(255, 255, 255, 0.795);
   font-size: 25px;
@@ -70,6 +70,12 @@ body {
 @media (max-width: 380px) {
   .cover-wrapper {
     height: 210px;
+  }
+}
+
+@media (max-width: 360px) {
+  .cover-wrapper {
+    height: 200px;
   }
 }
 

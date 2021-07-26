@@ -14,7 +14,7 @@ const Navbar = () => {
 
                     <div className="dropdown dropleft menu">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i className="fas fa-bars"></i>
+                        <i className="fas fa-bars" aria-hidden="true"></i>
                         </button>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a className="dropdown-item small" href="#">VISION & MISSION</a>

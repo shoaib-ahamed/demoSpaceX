@@ -1,25 +1,47 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   justify-content: center;
-  padding: 30px;
   background-color: rgba(233, 233, 233, 0.753);
 }
-.cards .card {
-  margin: 10px auto;
+
+.card {
+  margin: 50px;
 }
-.cards .card-img-top {
-  height: 250px;
+
+.card-img-top {
+  height: 200px;
   width: 100%;
 }
-.cards .card-title {
+.card-title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.cards .card-text {
+
+.card-details {
+  height: 120px;
+}
+
+.card-text {
   height: 70px;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  display: grid;
+  align-items: end;
+  justify-content: start;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .cards {
+    grid-template-columns: auto;
+  }
 }
